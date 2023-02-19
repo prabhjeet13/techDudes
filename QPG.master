@@ -1,0 +1,61 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="QPG.master.cs" Inherits="QPG" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <style type="text/css">
+        .auto-style2 {
+            height: 427px;
+            width: 1205px;
+        }
+        .auto-style3 {
+            height: 431px;
+            width: 1204px;
+        }
+        .auto-style5 {
+            width: 1015px;
+            height: 39px;
+        }
+        .auto-style6 {
+            width: 1015px;
+            height: 24px;
+        }
+        .auto-style7 {
+            width: 1015px;
+            height: 130px;
+        }
+        .auto-style8 {
+            width: 564px;
+            height: 313px;
+            margin-left: 552px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="auto-style3">
+        <table class="auto-style2" bgcolor="#EBEBEB" 
+            style="background-color: #EBEBEB; ">
+            <tr>
+                <td class="auto-style7">
+                    <img alt="" class="auto-style8" src="Images/qpg.png" /></td>
+            </tr>
+            <tr>
+                <td class="auto-style5">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                        <p>
+                            <br />
+                        </p>
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style6"> <b>Website Designed By TechDudes!!!</b> </td>
+            </tr>
+     </table>
+    </div>
+    </form>
+</body>
+</html>
